@@ -1,6 +1,6 @@
 
 <!-- =========================
- SECTION: WORK
+ SECTION: LAB
 ============================== -->
 <?php
 global $wp_customize;
@@ -34,7 +34,7 @@ if(!empty($parallax_one_my_lab_title) || !empty($parallax_one_my_lab_subtitle) )
             <?php
             } ?>
             <div class="portfolio-gallery">
-              <?php echo do_shortcode("[huge_it_portfolio id='2']"); ?>
+              <?php echo do_shortcode("[huge_it_portfolio id='3']"); ?>
             </div>
           </div>
         <?php
