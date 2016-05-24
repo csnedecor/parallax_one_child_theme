@@ -1,0 +1,108 @@
+/*================================*/
+/*General Styles*/
+/*=================================*/
+.standard-button, .navbar-register-button{
+  background-color: #f15e2e;
+}
+.standard-button:hover, .navbar-register-button:hover{
+  background: #ee3478;
+}
+.colored-line-left, .colored-line-right, .colored-line{
+  background: #ee3478;
+}
+.colored-text{
+  color: #ee3478;
+}
+.testimonials-box .feedback:hover{
+  border-bottom-color: #ee3478;
+}
+.feedback .pic-container-inner{
+  box-shadow: 0px 0px 0px 1px #ee3478;
+}
+.timeline-box-wrap .info h3:after{
+  background: #ee3478;
+}
+.timeline-box-wrap .info h3 a:hover{
+  color: #ee3478;
+}
+a{
+  color: #ee3478;
+}
+button.control_next:active, button.control_next:focus, button.control_prev:active, button.control_prev:focus{
+  outline: 1px dotted #ee3478;
+}
+button.control_next{
+  color: #ee3478;
+}
+button.control_prev{
+  color: #ee3478;
+}
+
+/*=======================================*/
+/* Portfolio Styling */
+/*==============================================*/
+div[class^='portelement']{
+  border: none;
+  background: #ffffff;
+  -webkit-box-shadow: 3px 3px 4px 0px rgba(229, 227, 227, 0.75);
+  -moz-box-shadow:    3px 3px 4px 0px rgba(229, 227, 227, 0.75);
+  box-shadow:         3px 3px 4px 0px rgba(229, 227, 227, 0.75);
+  border-radius: 10px;
+}
+div[class^='default-block'] div[class^='image-block'] img{
+  height: auto!important;
+}
+div[class^='default-block'] div[class^='image-block']{
+  height: 160px!important;
+  display: table-cell;
+  vertical-align: middle;
+  border: none;
+}
+div[class^='portelement'] div[class^='default-block']{
+  height: auto!important;
+}
+div[class^='wd-portfolio-panel'] > div{
+  background: none!important;
+}
+div[class^='default-block'] div[class^='title-block'] h3{
+  font-weight: bold;
+  color: inherit;
+}
+.wd-portfolio-panel_2 .button-block a, .wd-portfolio-panel_2 .button-block a:link, .wd-portfolio-panel_2 .button-block a{
+  background: none!important;
+  float: right;
+  color: #ee3478!important;
+  font-weight: bold;
+}
+.wd-portfolio-panel_2 .button-block a:hover{
+  color: #f15e2e!important;
+}
+div#huge_it_portfolio_container_2.super-list.variable-sizes.clearfix.hugeitmicro{
+  margin-left: 130px;
+}
+/*===========================================*/
+/* Responsive styles */
+/*===========================================*/
+@media only screen and (max-width:769px){
+  div#parallax_header.container.overlay-layer{
+    padding-top: 54px!important;
+  }
+  .header .overlay-layer{
+    padding-bottom: 185px;
+  }
+}
+@media only screen and (max-width: 480px){
+
+  .header{
+    background-position: 480px;
+  }
+  .header-style-one .intro-section, .header-style-four .intro-section{
+    margin-top: 154px;
+  }
+  .header .overlay-layer{
+    padding-bottom: 15px;
+  }
+  .header{
+    background-position: right;
+  }
+}
