@@ -37,6 +37,9 @@ button.control_next{
 button.control_prev{
   color: #ee3478;
 }
+.sticky-navigation .main-navigation li a:hover, .sticky-navigation .login-register li.login a:hover{
+  color: #ee3478;
+}
 
 /*=======================================*/
 /* Portfolio Styling */
@@ -68,17 +71,47 @@ div[class^='default-block'] div[class^='title-block'] h3{
   font-weight: bold;
   color: inherit;
 }
-.wd-portfolio-panel_2 .button-block a, .wd-portfolio-panel_2 .button-block a:link, .wd-portfolio-panel_2 .button-block a{
+div[class^='wd-portfolio-panel'] .button-block a, div[class^='wd-portfolio-panel'] .button-block a:link, div[class^='wd-portfolio-panel'] .button-block a{
   background: none!important;
   float: right;
   color: #ee3478!important;
   font-weight: bold;
 }
-.wd-portfolio-panel_2 .button-block a:hover{
+div[class^='wd-portfolio-panel'] .button-block a:hover{
   color: #f15e2e!important;
 }
 div#huge_it_portfolio_container_2.super-list.variable-sizes.clearfix.hugeitmicro{
   margin-left: 130px;
+}
+section#huge_it_portfolio_content_3{
+  margin-left: 50px;
+}
+.portelement_3 div.left-block_3{
+  width: 100%!important;
+}
+.portelement_3 div.left-block_3 .main-image-block_3{
+  width: auto!important;
+}
+.portelement_3 div.left-block_3 .main-image-block_3.add-H-relative img{
+  width: auto!important;
+}
+.portelement_3 > div{
+  display: block!important;
+}
+.portelement_3 .play-icon.vimeo-icon{
+  background-size: auto!important;
+}
+.portelement_3 div.right-block .title-block_3 h3{
+  color: #ee3478!important;
+}
+.portelement_3 div.right-block .button-block a, .portelement_3 div.right-block .button-block a:link, .portelement_3 div.right-block .button-block a{
+  background-color: #f15e2e!important;
+}
+.portelement_3 div.right-block .button-block a:hover, .portelement_3 div.right-block .button-block a:hover{
+  background-color: #ee3478!important;
+}
+.portelement_3 div.right-block .button-block a{
+  float: right;
 }
 /*===========================================*/
 /* Responsive styles */
