@@ -113,6 +113,64 @@ section#huge_it_portfolio_content_3{
 .portelement_3 div.right-block .button-block a{
   float: right;
 }
+/*==================================*/
+/* Ribbon Section */
+/*==================================*/
+.call-to-action .section-overlay-layer{
+  background: rgba(0, 5, 8, 0.70);
+}
+/*=================================*/
+/* Contact form section */
+/*=================================*/
+
+section#contact-info.contact-info{
+  background-image: url();
+}
+.contact-info{
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border-bottom: 1px solid #eaebec;
+}
+.contact-info .section-overlay-layer{
+  background: rgba(0, 5, 8, 0.50);
+}
+.wpcf7 textarea{
+  width: 80%;
+}
+.wpcf7 p{
+  color: #ffffff;
+}
+input[type="submit"]{
+  overflow: visible;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #f15e2e;
+  font-size: 16px;
+  padding: 18px 40px 18px 40px;
+  -webkit-box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.3);
+  border-color: #2e6da4;
+  display: inline-block;
+  align-items: flex-start;
+}
+input[type="submit"]:hover{
+  background: #ee3478;
+  text-decoration: none;
+}
+div.wpcf7-mail-sent-ok, div.wpcf7-mail-sent-ng{
+  color: white;
+  background-color: #51bcb7;
+}
 /*===========================================*/
 /* Responsive styles */
 /*===========================================*/
@@ -122,6 +180,11 @@ section#huge_it_portfolio_content_3{
   }
   .header .overlay-layer{
     padding-bottom: 185px;
+  }
+}
+@media only screen and (max-width: 580px){
+  input[type="submit"]{
+    padding: 15px 35px 15px 35px;
   }
 }
 @media only screen and (max-width: 480px){
