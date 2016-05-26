@@ -136,4 +136,18 @@ function parallax_one_childtheme_customize_register($wp_customize) {
 }
 
 add_action( 'customize_register', 'parallax_one_childtheme_customize_register' );
+
+/**********************************************/
+// REMOVE UNUSED SECTIONS FROM CUSTOMIZER
+/**********************************************/
+function remove_sections(){
+    global $wp_customize;
+
+    $wp_customize->remove_section('parallax_one_services_section');
+    $wp_customize->remove_section('parallax_one_team_section');
+    $wp_customize->remove_section('parallax_one_testimonials_section');
+}
+
+// Priority 20 so that we remove options only once they've been added
+add_action( 'customize_register', 'remove_sections', 20 );
 ?>
