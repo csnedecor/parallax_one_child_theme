@@ -48,7 +48,7 @@ if(!empty($parallax_one_frontpage_contact_form_title) || !empty($parallax_one_fr
     ?>
 
 
-            <div class="contact-form">
+            <div class="contact-form" id="contact">
               <?php echo do_shortcode($parallax_one_frontpage_contact_form_shortcode);?>
             </div>
         <?php
