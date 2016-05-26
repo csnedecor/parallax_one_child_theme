@@ -28,6 +28,12 @@
 a{
   color: #ee3478;
 }
+a:hover{
+  color: #ee3478;
+}
+a:active{
+  color: #51bcb7;
+}
 button.control_next:active, button.control_next:focus, button.control_prev:active, button.control_prev:focus{
   outline: 1px dotted #ee3478;
 }
@@ -40,7 +46,9 @@ button.control_prev{
 .sticky-navigation .main-navigation li a:hover, .sticky-navigation .login-register li.login a:hover{
   color: #ee3478;
 }
-
+.standard-button:active, .navbar-register-button:active{
+  background: #51bcb7!important;
+}
 /*=======================================*/
 /* Portfolio Styling */
 /*==============================================*/
@@ -113,6 +121,71 @@ section#huge_it_portfolio_content_3{
 .portelement_3 div.right-block .button-block a{
   float: right;
 }
+/*====================================*/
+/* Blog template/'Home' template */
+/*=====================================*/
+.entry-content.home-page{
+  margin-bottom: 80px;
+}
+.post-img-wrap .post-date{
+  background: rgba(241, 94, 46, 0.9) ;
+}
+.border-bottom-hover:hover{
+  border-bottom-color: #f15e2e;
+}
+.post-list article a{
+  color: #f15e2e;
+}
+.post-list article a:hover{
+  color: #ee3478;
+}
+.post-list article .colored-line-left{
+  background: #f15e2e;
+}
+.post-list h2.entry-title a:hover{
+  color: #f15e2e;
+}
+.post-img-wrap{
+  color: #f15e2e;
+}
+.post-img-wrap img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/*===================================*/
+/* Post Single Page */
+/*==================================*/
+.post-featured-image{
+  border: 1px solid #eaeaea;
+  border-bottom: 4px solid #eaeaea;
+  float: left;
+  width: 100%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.border-bottom{
+  border-bottom-color: #f15e2e;
+}
+.content-single-page .colored-line-left{
+  background: #f15e2e;;
+}
+.content-single-page a, #comments a{
+  color: #f15e2e;
+}
+.content-single-page a:hover, #comments a:hover{
+  color: #ee3478;;
+}
+.comment-form .form-submit input, #recaptcha-submit-btn-area input{
+  background-image: url(images/tr-btn.png);
+}
+#sidebar-secondary a:hover{
+  color: #f15e2e;;
+}
 /*==================================*/
 /* Ribbon Section */
 /*==================================*/
@@ -142,7 +215,7 @@ section#contact-info.contact-info{
 .wpcf7 p{
   color: #ffffff;
 }
-input[type="submit"]{
+input[type="submit"], .comment-form .form-submit input, #recaptcha-submit-btn-area input{
   overflow: visible;
   margin-bottom: 0;
   text-align: center;
@@ -163,9 +236,10 @@ input[type="submit"]{
   display: inline-block;
   align-items: flex-start;
 }
-input[type="submit"]:hover{
+input[type="submit"]:hover, .comment-form .form-submit input:hover, #recaptcha-submit-btn-area input:hover{
   background: #ee3478;
   text-decoration: none;
+  color: white;
 }
 div.wpcf7-mail-sent-ok, div.wpcf7-mail-sent-ng{
   color: white;
