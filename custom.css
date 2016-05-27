@@ -172,19 +172,19 @@ section#huge_it_portfolio_content_3{
   border-bottom-color: #f15e2e;
 }
 .content-single-page .colored-line-left{
-  background: #f15e2e;;
+  background: #f15e2e;
 }
 .content-single-page a, #comments a{
   color: #f15e2e;
 }
 .content-single-page a:hover, #comments a:hover{
-  color: #ee3478;;
+  color: #ee3478;
 }
 .comment-form .form-submit input, #recaptcha-submit-btn-area input{
   background-image: url(images/tr-btn.png);
 }
 #sidebar-secondary a:hover{
-  color: #f15e2e;;
+  color: #f15e2e;
 }
 /*==================================*/
 /* Ribbon Section */
